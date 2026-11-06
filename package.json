@@ -1,0 +1,30 @@
+{
+  "name": "pingroom-starter-prefix-codebook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Collect observed event counts through PingRoom and build a deterministic Huffman codebook.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js run",
+    "connect": "node src/cli.js connect",
+    "inspect": "node src/cli.js inspect",
+    "status": "node src/cli.js status",
+    "report": "node src/cli.js report",
+    "find-id": "node src/cli.js find",
+    "recover": "node src/cli.js recover",
+    "demo": "node src/demo.js",
+    "test": "node --test",
+    "validate": "node src/cli.js validate",
+    "export": "node src/cli.js export",
+    "export-analysis": "node src/cli.js export-analysis",
+    "encode": "node src/cli.js encode",
+    "decode": "node src/cli.js decode"
+  },
+  "dependencies": {
+    "@pingroom/sdk": "0.7.1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,27 @@
+{
+  "alphabetId": "practice-events",
+  "title": "Practice workstation events",
+  "context": "Observed event counts during one practice session.",
+  "symbols": [
+    {
+      "id": "close",
+      "label": "Session closed",
+      "countDefinition": "Count every practice session close event"
+    },
+    {
+      "id": "open",
+      "label": "Session opened",
+      "countDefinition": "Count every practice session open event"
+    },
+    {
+      "id": "save",
+      "label": "Practice note saved",
+      "countDefinition": "Count every practice note save event"
+    },
+    {
+      "id": "view",
+      "label": "Practice note viewed",
+      "countDefinition": "Count every practice note view event"
+    }
+  ]
+}
